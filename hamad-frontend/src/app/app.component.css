@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #1a1a1b;
+}
+
+.header {
+  background-color: #cee3f8; /* Reddit header background color */
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: solid 2px #ff4500; /* Reddit header border color */
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.search-bar {
+  display: flex;
+  margin-left: auto;
+}
+
+.search-bar input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ff4500;
+  /*border-radius: 20px;*/
+  font-size: 16px;
+  background-color: #ffffff; /* Reddit search input background color */
+  color: #1a1a1b;
+  width: 500px;
+}
+
+.search-bar button {
+  background-color: #ff4500; /* Reddit search button background color */
+  color: #ffffff;
+  border: none;
+  /*border-radius: 20px;*/
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.search-bar button:hover {
+  background-color: #f38157; /* Reddit search button hover background color */
+  color: #ffffff;
+}
+
+.actions {
+  margin-left: auto;
+}
+
+.actions button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  /*border-radius: 20px;*/
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.actions .login {
+  background-color: #ff4500; /* Reddit login button background color */
+}
+
+.actions .register {
+  background-color: #ff4500; /* Reddit register button background color */
+}
+
+.actions .logout {
+  background-color: #ff4500; /* Reddit logout button background color */
+}
+
+.actions .login:hover, .actions .register:hover,  .actions .logout:hover{
+  background-color: #f38157; /* Reddit login button hover background color */
+  color: #ffffff;
+}
+
+.content {
+  padding: 20px;
+  background-color: #ffffff;
+}

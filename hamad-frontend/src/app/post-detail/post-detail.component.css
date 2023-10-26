@@ -1,0 +1,97 @@
+.container {
+  background-color: #fff;
+  color: #1a1a1b; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  float: left;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #ff4500; 
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff; /* Slightly darker background */
+}
+  
+.card-title {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #1a1a1b;
+}
+
+.card-text {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .comment-card {
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #1b1b1b;
+    border: 1px solid #ff4500;
+  }
+  
+  .comment-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+
+  .form-control {
+    background-color: #ffffff;
+    color: #1b1b1b;
+    border: 1px solid #ff4500;
+    border-radius: 10px;
+  }
+
+  .btn-primary {
+    background-color: #ff4500;
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #f38157;
+    color: #f5f5f5d1;
+  }
+
+  .edit {
+    background-color: #fff;
+    color: #1b1b1b;
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 50px;
+    height: 32px;
+    float: right;
+  }
+
+  .delete {
+    background-color: #fff;
+    color: #1b1b1b;
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 50px;
+    height: 32px;
+    float: right;
+  }
+
+  .edit:hover{
+    background-color: #dddddd;
+  }
+
+  .delete:hover{
+    background-color: #ddd;
+  }
